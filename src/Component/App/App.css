@@ -41,3 +41,11 @@ img{
   text-align:justify
 }
 
+.rating{
+  text-align: center;
+  font-weight: bold;
+  color:red;
+  margin-bottom: 15px;
+  margin-top: -10px;
+
+}

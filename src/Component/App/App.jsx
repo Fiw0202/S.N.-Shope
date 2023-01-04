@@ -18,6 +18,7 @@ function App() {
     {Item.map((Item) => (
       <Items key={Item.id} {...Item} />
     ))}
+
   </div>
 </div>
    
