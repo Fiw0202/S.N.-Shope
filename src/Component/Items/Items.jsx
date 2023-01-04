@@ -1,11 +1,17 @@
-import React from 'react'
+import React from 'react';
 
-const data = ( {  id , title , image , price  , rating } )
-
-function Items ( ) {
+const Items = ({ id , title, Image, price, description, rating }) => {
   return (
-    <div>Items</div>
-  )
-}
+    <div className ="Item">
+      
+      <h2 className="title">{title}</h2>
+      <h2 className="id">{id}</h2>
+      <img src={Image} />
+      <p className="price">{price}</p>
+      <p className="description">{description}</p>
+      <p className="rating">{rating}</p>
+    </div>
+  );
+};
 
-export default Items
+export default Items;
